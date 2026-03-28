@@ -1,0 +1,8 @@
+key: games.fall-machine
+title: "FALL MACHINE"
+date: "31.08.2025"
+cover: "/assets/games/imgs/fall-machine/cover.png"
+tags:
+    - fall-machine
+    - godot
+style: "games/fall-machine.scss"

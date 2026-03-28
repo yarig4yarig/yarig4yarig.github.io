@@ -1,0 +1,31 @@
+.window-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+}
+
+.window-row {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+img, video {
+    image-rendering: pixelated;
+}
+
+
+.fill-img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}

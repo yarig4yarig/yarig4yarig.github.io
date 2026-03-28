@@ -1,0 +1,54 @@
+:root {
+    --bg-primary: #000;
+    --bg-secondary: #1a1a00;
+    --bg-content: #000;
+    --border-shadow: #665500;
+    --border-shadow-dark: #332200;
+    --color-dark: #000;
+    --color-light: #fc0;
+    --title-grad-left: #000;
+    --title-grad-right: #fc0;
+    --text-primary: #fff;
+    --text-secondary: #ccc;
+    --focus-color: #fc0;
+    --body-bg: #000;
+}
+
+body {
+    background: url("/assets/games/imgs/download-clicker/bg.png") #000 repeat top left;
+}
+
+.window {
+    border-color: #fc0;
+    border-right-color: #665500;
+    border-bottom-color: #665500;
+}
+
+.title-bar {
+    background: linear-gradient(to right, #000, #fc0);
+}
+
+h1 {
+    color: #fc0;
+    text-shadow: 2px 2px 4px #0008;
+}
+
+button, .btn {
+    background: #1a1a00;
+    color: #fff;
+    border-color: #fc0;
+    border-right-color: #665500;
+    border-bottom-color: #665500;
+}
+
+button:hover, .btn:hover {
+    background: #2a2a00;
+}
+
+a {
+    color: #fc0;
+}
+
+a:hover {
+    color: #fe6;
+}
