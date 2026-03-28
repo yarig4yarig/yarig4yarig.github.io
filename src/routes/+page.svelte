@@ -2,7 +2,7 @@
     import Gearboxing from '$lib/components/Gearboxing.svelte'
     import Window from '$lib/components/Window.svelte'
     import Items from '$lib/templates/Items.svelte'
-    import { marked } from 'marked'
+    import { marked } from '$lib/utils/markdown'
     import { _ } from 'svelte-i18n'
 
     $: aboutMe = marked($_('common.about.about_me'))

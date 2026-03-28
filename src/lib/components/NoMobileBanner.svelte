@@ -1,5 +1,5 @@
 <script lang='ts'>
-    import { marked } from 'marked'
+    import { marked } from '$lib/utils/markdown'
     import { onMount } from 'svelte'
     import { _ } from 'svelte-i18n'
 

@@ -1,8 +1,9 @@
 <script lang='ts'>
+    import { base } from '$app/paths'
     import Window from '$lib/components/Window.svelte'
     import contentStore from '$lib/content_store'
     import Items from '$lib/templates/Items.svelte'
-    import { marked } from 'marked'
+    import { marked } from '$lib/utils/markdown'
     import { onDestroy, onMount } from 'svelte'
     import { _ } from 'svelte-i18n'
 
@@ -34,7 +35,7 @@
 <div class='window-container'>
     <div class='window-row'>
         <Window title='Cover' width={640} height={360}>
-            <img src={item.cover} alt='cover' class='fill-img'>
+            <img src='{base}{item.cover}' alt='cover' class='fill-img'>
         </Window>
 
         <Window title='Title' width={1000} height={360}>
@@ -45,11 +46,11 @@
                     {#each tags as tag}
                         {#if type === 'games'}
                             {@const tagLabel = marked($_(`tags.${tag}`))}
-                            <a href={`/${type}/find/${tag}`}>
+                            <a href={`${base}/${type}/find/${tag}`}>
                                 <button>{@html tagLabel}</button>
                             </a>
                         {:else}
-                            <a href={`/${type}/find/${tag}`}>
+                            <a href={`${base}/${type}/find/${tag}`}>
                                 <button>{@html marked(tag)}</button>
                             </a>
                         {/if}

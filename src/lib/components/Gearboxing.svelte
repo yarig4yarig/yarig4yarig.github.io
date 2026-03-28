@@ -1,8 +1,9 @@
 <script lang='ts'>
+    import { base } from '$app/paths'
     import { WeightList } from '$lib/types'
     import { onMount } from 'svelte'
 
-    const PATH = '/assets/GearBoxingStickers/V1/'
+    const PATH = `${base}/assets/GearBoxingStickers/V1/`
 
     const images = new WeightList<string>([
         { item: 'Normal', weight: 1 },

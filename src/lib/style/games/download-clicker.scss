@@ -15,7 +15,7 @@
 }
 
 body {
-    background: url("/assets/games/imgs/download-clicker/bg.png") #000 repeat top left;
+    background: url(var(--base-path) "/assets/games/imgs/download-clicker/bg.png") #000 repeat top left;
 }
 
 .window {

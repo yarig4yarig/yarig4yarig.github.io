@@ -1,7 +1,7 @@
 <script lang='ts'>
     import Window from '$lib/components/Window.svelte'
     import Items from '$lib/templates/Items.svelte'
-    import { marked } from 'marked'
+    import { marked } from '$lib/utils/markdown'
     import { _ } from 'svelte-i18n'
 
     export let data

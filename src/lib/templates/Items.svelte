@@ -1,8 +1,9 @@
 <script lang='ts'>
     import type { ContentType } from '$lib/types'
+    import { base } from '$app/paths'
     import Window from '$lib/components/Window.svelte'
     import contentStore from '$lib/content_store'
-    import { marked } from 'marked'
+    import { marked } from '$lib/utils/markdown'
     import { _ } from 'svelte-i18n'
 
     export let num_of_elem: number | 'all' = 5
@@ -38,7 +39,7 @@
 {#each displayItems as item, i}
     {@const itemData = contentStore.getItem(item_type, item)}
     {@const content = marked($_(itemData.key))}
-    {@const link = `/${item_type}/${item}`}
+    {@const link = `${base}/${item_type}/${item}`}
     {@const isEven = i % 2 === 0}
 
     <div class='window-row'>
@@ -48,11 +49,11 @@
                 <p>{@html smartTrim(content, 100)}</p>
             </Window>
             <Window width={360} height={200} title='Cover #{i + 1}' bg_col='black'>
-                <a href={link}><img class='fill-img' src={itemData.cover} alt='cover'></a>
+                <a href={link}><img class='fill-img' src='{base}{itemData.cover}' alt='cover'></a>
             </Window>
         {:else}
             <Window width={360} height={200} title='Cover #{i + 1}' bg_col='black'>
-                <a href={link}><img class='fill-img' src={itemData.cover} alt='cover'></a>
+                <a href={link}><img class='fill-img' src='{base}{itemData.cover}' alt='cover'></a>
             </Window>
             <Window width={700} height='auto' title='Post #{i + 1}'>
                 <a href={link}><h1>{itemData.title}</h1></a>
