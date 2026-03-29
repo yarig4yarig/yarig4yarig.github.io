@@ -1,14 +1,14 @@
 <script lang='ts'>
     import { base } from '$app/paths'
+    import { page } from '$app/stores'
     import LanguageSelect from '$lib/components/LanguageSelect.svelte'
     import NoMobileBanner from '$lib/components/NoMobileBanner.svelte'
     import VideoHover from '$lib/components/VideoHover.svelte'
     import Window from '$lib/components/Window.svelte'
+    import { processStyle } from '$lib/utils/styles'
+    import { onDestroy, onMount } from 'svelte'
     import '$lib/style/base.scss'
     import '$lib/style/layout.scss'
-    import { processStyle } from '$lib/utils/styles'
-    import { onMount, onDestroy } from 'svelte'
-    import { page } from '$app/stores'
 
     let defaultStyleEl: HTMLStyleElement | null = null
 
@@ -30,8 +30,9 @@
     $: if (hasCustomStyle) {
         defaultStyleEl?.remove()
         defaultStyleEl = null
-    } else if (!defaultStyleEl && typeof window !== 'undefined') {
-        import('$lib/style/default.scss?inline').then(module => {
+    }
+    else if (!defaultStyleEl && typeof window !== 'undefined') {
+        import('$lib/style/default.scss?inline').then((module) => {
             defaultStyleEl = document.createElement('style')
             defaultStyleEl.textContent = processStyle(module.default)
             document.head.appendChild(defaultStyleEl)

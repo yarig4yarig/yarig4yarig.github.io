@@ -1,7 +1,7 @@
 <script lang='ts'>
     import { base } from '$app/paths'
-    import Window from '$lib/components/Window.svelte'
     import Comments from '$lib/components/Comments.svelte'
+    import Window from '$lib/components/Window.svelte'
     import contentStore from '$lib/content_store'
     import Items from '$lib/templates/Items.svelte'
     import { marked } from '$lib/utils/markdown'

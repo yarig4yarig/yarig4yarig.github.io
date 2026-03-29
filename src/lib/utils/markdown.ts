@@ -6,6 +6,4 @@ export function marked(src: string): string {
     return html
         .replace(/src="\/(?!\/|https?:)/g, `src="${base}/`)
         .replace(/href="\/(?!\/|https?:)/g, `href="${base}/`)
-        .replace(/src='\/(?!\/|https?:)/g, `src='${base}/`)
-        .replace(/href='\/(?!\/|https?:)/g, `href='${base}/`)
 }

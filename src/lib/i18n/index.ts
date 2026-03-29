@@ -1,5 +1,4 @@
-import { _, init, locale, register, waitLocale } from 'svelte-i18n'
-import { get } from 'svelte/store'
+import { init, locale, register, waitLocale } from 'svelte-i18n'
 import { loadLocale } from './loadLocale'
 
 const defaultLocale = 'en'

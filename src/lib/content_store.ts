@@ -57,7 +57,7 @@ class ContentStore {
     }
 
     getItemsByTag(type: ContentType, tag: string): string[] {
-        return this.getSlug(type).filter(slug => {
+        return this.getSlug(type).filter((slug) => {
             const item = this.getItem(type, slug)
             return item.tags?.includes(tag)
         })

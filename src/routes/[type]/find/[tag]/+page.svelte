@@ -3,6 +3,7 @@
     import Items from '$lib/templates/Items.svelte'
     import { marked } from '$lib/utils/markdown'
     import { _ } from 'svelte-i18n'
+    import type { ContentType } from "$lib/types";
 
     export let data
 

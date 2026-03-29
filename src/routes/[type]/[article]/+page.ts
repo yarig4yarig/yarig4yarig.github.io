@@ -1,7 +1,7 @@
 import type { PageLoad } from './$types'
 import contentStore from '$lib/content_store'
-import { error } from '@sveltejs/kit'
 import { processStyle } from '$lib/utils/styles'
+import { error } from '@sveltejs/kit'
 
 const styles = import.meta.glob('$lib/style/**/*.scss', {
     query: '?inline',
@@ -33,7 +33,7 @@ export const load: PageLoad = async ({ params }) => {
                 customStyle = processStyle(rawStyle)
             }
             catch {
-                
+                // ignore
             }
         }
     }
