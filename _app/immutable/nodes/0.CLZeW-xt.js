@@ -1,4 +1,4 @@
-import{r as R,a as X,b as I,w as Z,g as Q,i as O,h as ee,m as j,$ as te,s as C,W as N,c as ne}from"../chunks/WTMIRDKB.js";import{c as se,a as g,g as A,b as q,s as Y,f as p,d as oe,p as ae}from"../chunks/BDJKeTFG.js";import{o as ie,b as re,b9 as le,ay as ce,h as E,C as de,R as F,j as W,i as B,k as me,P as he,ba as _e,n as $,e as U,w as ue,bb as ge,bc as be,ai as pe,V as x,a4 as M,a0 as w,$ as b,a2 as u,_ as L,g as m,u as S,Y as P,A as G,Z as V,a3 as ve,a1 as T,bd as we,be as fe}from"../chunks/0XuYziEB.js";import{b as k}from"../chunks/DwKYmNX5.js";import{e as ye,i as ke}from"../chunks/D3QuLIb0.js";import{i as Ie}from"../chunks/_tSM4f7b.js";import{b as Se}from"../chunks/DThCccZV.js";function Te(e,s){let i=null,t=E;var l;if(E){i=me;for(var n=he(document.head);n!==null&&(n.nodeType!==de||n.data!==e);)n=F(n);if(n===null)W(!1);else{var a=F(n);n.remove(),B(a)}}E||(l=document.head.appendChild(ie()));try{re(()=>s(l),le|ce)}finally{t&&(W(!0),B(i))}}function K(e,s,i=!1){if(e.multiple){if(s==null)return;if(!ue(s))return ge();for(var t of e.options)t.selected=s.includes(y(t));return}for(t of e.options){var l=y(t);if(be(l,s)){t.selected=!0;return}}(!i||s!==void 0)&&(e.selectedIndex=-1)}function Ae(e){var s=new MutationObserver(()=>{K(e,e.__value)});s.observe(e,{childList:!0,subtree:!0,attributes:!0,attributeFilter:["value"]}),pe(()=>{s.disconnect()})}function Le(e,s,i=s){var t=new WeakSet,l=!0;_e(e,"change",n=>{var a=n?"[selected]":":checked",r;if(e.multiple)r=[].map.call(e.querySelectorAll(a),y);else{var h=e.querySelector(a)??e.querySelector("option:not([disabled])");r=h&&y(h)}i(r),e.__value=r,$!==null&&t.add($)}),U(()=>{var n=s();if(e===document.activeElement){var a=$;if(t.has(a))return}if(K(e,n,l),l&&n===void 0){var r=e.querySelector(":checked");r!==null&&(n=y(r),i(n))}e.__value=n,l=!1}),Ae(e)}function y(e){return"__value"in e?e.__value:e.value}const Ee=`I'm **Gearboxing** / **Гирбоксинг** / **Yaroslav**. A young Russian person (not sure about that), who creates all sorts of stuff.
+import{r as Q,c as oe,b as T,w as ae,g as ie,i as N,h as re,m as q,$ as le,s as P,W as Y,d as ce}from"../chunks/vW8Ho1X6.js";import{_ as V}from"../chunks/PPVm8Dsz.js";import{d as de,a as p,g as $,b as F,s as W,f as w,c as me,p as _e}from"../chunks/DA8WHvzt.js";import{E as he,k as ue,b9 as ge,ay as be,n as D,C as pe,a0 as U,x as K,w as z,y as ve,_ as fe,ba as we,B as x,e as Z,L as ye,bb as ke,bc as Ie,ai as Se,p as B,a5 as R,s as g,g as f,j as b,t as C,i as a,u as A,d as H,m as I,f as ee,a3 as Le,h as E,bd as G,a7 as Te,l as J,b as Ae,be as Ee}from"../chunks/E8k1bS-7.js";import{b as O}from"../chunks/nbxNCS7A.js";import{e as $e,i as Ce}from"../chunks/BbIc8I_R.js";import{i as De}from"../chunks/BHL1XxII.js";import{b as xe}from"../chunks/BDhgQ2Xn.js";import{p as M}from"../chunks/D6nJP1-y.js";import{p as Oe}from"../chunks/CkgN96S2.js";function Me(e,o){let i=null,s=D;var c;if(D){i=ve;for(var n=fe(document.head);n!==null&&(n.nodeType!==pe||n.data!==e);)n=U(n);if(n===null)K(!1);else{var t=U(n);n.remove(),z(t)}}D||(c=document.head.appendChild(he()));try{ue(()=>o(c),ge|be)}finally{s&&(K(!0),z(i))}}function te(e,o,i=!1){if(e.multiple){if(o==null)return;if(!ye(o))return ke();for(var s of e.options)s.selected=o.includes(k(s));return}for(s of e.options){var c=k(s);if(Ie(c,o)){s.selected=!0;return}}(!i||o!==void 0)&&(e.selectedIndex=-1)}function Pe(e){var o=new MutationObserver(()=>{te(e,e.__value)});o.observe(e,{childList:!0,subtree:!0,attributes:!0,attributeFilter:["value"]}),Se(()=>{o.disconnect()})}function Ge(e,o,i=o){var s=new WeakSet,c=!0;we(e,"change",n=>{var t=n?"[selected]":":checked",l;if(e.multiple)l=[].map.call(e.querySelectorAll(t),k);else{var u=e.querySelector(t)??e.querySelector("option:not([disabled])");l=u&&k(u)}i(l),e.__value=l,x!==null&&s.add(x)}),Z(()=>{var n=o();if(e===document.activeElement){var t=x;if(s.has(t))return}if(te(e,n,c),c&&n===void 0){var l=e.querySelector(":checked");l!==null&&(n=k(l),i(n))}e.__value=n,c=!1}),Pe(e)}function k(e){return"__value"in e?e.__value:e.value}const je=`I'm **Gearboxing** / **Гирбоксинг** / **Yaroslav**. A young Russian person (not sure about that), who creates all sorts of stuff.
 
 I'm a pretty optimistic, humorous creature _and, let's be honest, a bit dumb._
 
@@ -13,7 +13,7 @@ So I switched to Godot, and I'm still on it now. Pretty nice engine...
 **Downside:** I work veeeery slowly.
 
 !!!You're on my website right now (no way)!!!
-`,$e=`I code in:
+`,Ne=`I code in:
 - **C#** (Learning)
 - **Python** (Intermediate level)
 - **JavaScript** / **TypeScript** (Also intermediate level)
@@ -25,19 +25,19 @@ Using:
 Grew out of:
 - **Scratch** / **Turbowarp** / **PenguinMod** (Legends)
 - **Devel Next** / **Devel Studio** (Also Legends).
-`,Ce=`All **games**
-`,De=`All **posts**
-`,Oe=`Games by tag
-`,xe=`Newest **games**
-`,Me=`Newest **posts**
-`,Pe=`Posts about
-`,Ge=`Posts by tag
-`,je=`Related posts
-`,Ne=`Discord server (Russian)
-`,Fe=`Discord username (DM)
-`,We=`GitHub
-`,Be=`Telegram channel (Russian)
-`,He=`**DOWNLOAD CLICKER** - One of my first serious projects. I started developing it way back in 2023 as a simple clicker. Later, more and more ideas kept coming, and it grew into a whole separate game.
+`,Fe=`All **games**
+`,We=`All **posts**
+`,Be=`Games by tag
+`,Re=`Newest **games**
+`,He=`Newest **posts**
+`,qe=`Posts about
+`,Ye=`Posts by tag
+`,Ve=`Related posts
+`,Ue=`Discord server (Russian)
+`,Ke=`Discord username (DM)
+`,ze=`GitHub
+`,Je=`Telegram channel (Russian)
+`,Xe=`**DOWNLOAD CLICKER** - One of my first serious projects. I started developing it way back in 2023 as a simple clicker. Later, more and more ideas kept coming, and it grew into a whole separate game.
 
 <img src="/assets/games/imgs/download-clicker/screenshots/screen1.png" alt="First version of the game" width="600">
 
@@ -74,7 +74,7 @@ Also, I asked my composer friend - [Taylor](https://www.youtube.com/@TTFOfficial
 And here's the deal: we finished production of this game in 2025, in the middle of developing version **"Beta 2"**.
 The reason was the complexity of development. Although this torture was pleasant, it was still torture. Plus, I didn't know how to properly implement balance.
 So yeah, the project is now half-dead.
-`,Re=`**FALL MACHINE** - This is another project I'm working on right now.
+`,Qe=`**FALL MACHINE** - This is another project I'm working on right now.
 
 After DC, Taylor and I tried different game ideas. We needed something simpler. Eventually, I started developing FM.
 
@@ -117,21 +117,21 @@ I'll say right away that I obviously didn't retell the entire plot.
 I planned 5 levels in total. Right now, the first 2 levels are being made.
 
 Wait for new updates about the game!
-`,qe=`Idk this game dude💀💀💀💀💀💀💀
-`,Ye=`Unknown page!
-`,Ue=`Unknown **post**!
-`,Ve=`# Warning!
+`,Ze=`Idk this game dude💀💀💀💀💀💀💀
+`,et=`Unknown page!
+`,tt=`Unknown **post**!
+`,nt=`# Warning!
 This site is not mobile-friendly.
-`,Ke=`**Yo watsap**
+`,st=`**Yo watsap**
 
 This is the first post on my website!
-`,ze=`DOWNLOAD CLICKER
-`,Je=`FALL MACHINE
-`,Xe=`Godot
-`,Ze=`No Theme
-`,Qe=`Scratch
-`,et=`SVG Style
-`,tt=`Я - **Gearboxing** / **Гирбоксинг** / **Ярослав**. Молодой русский человек(не точно), который творит всякое.
+`,ot=`DOWNLOAD CLICKER
+`,at=`FALL MACHINE
+`,it=`Godot
+`,rt=`No Theme
+`,lt=`Scratch
+`,ct=`SVG Style
+`,dt=`Я - **Gearboxing** / **Гирбоксинг** / **Ярослав**. Молодой русский человек(не точно), который творит всякое.
 
 Существо я довольно оптимистичное, юморное _и, давайте быть честными, немного туповатое._
 
@@ -146,7 +146,7 @@ This is the first post on my website!
 **Минус:** я ооочень медленно работаю.
 
 !!!Сейчас ты на моём сайте(да ладно)!!!
-`,nt=`Пишу на языках:
+`,mt=`Пишу на языках:
 - **C#** (Учу)
 - **Python** (Средний уровень)
 - **JavaScript** / **TypeScript** (Тож средний уровень)
@@ -158,15 +158,18 @@ This is the first post on my website!
 Вырос из:
 - **Scratch** / **Turbowarp** / **PenguinMod** (Легенды Ленинграда)
 - **Devel Next** / **Devel Studio** (Тоже Леги).
-`,st=`Игры по тегу
-`,ot=`Посты о
-`,at=`Посты по тегу
-`,it=`Связанные посты
-`,rt=`Дискорд сервер(русский)
-`,lt=`Дискорд никнейм(ЛС)
-`,ct=`Гитхаб
-`,dt=`Телеграмм канал(русский)
-`,mt=`**DOWNLOAD CLICKER** - Один из моих первых серьёзных проектов. Начал я его разрабатывать ещё в далёком 2023 году, как простой кликер. Позже приходило всё больше идей, и это переросло в целую отдельную игру.
+`,_t="Все **игры**",ht=`Все **посты**
+`,ut=`Игры по тегу
+`,gt=`Новые **игры**
+`,bt=`Новые **посты**
+`,pt=`Посты о
+`,vt=`Посты по тегу
+`,ft=`Связанные посты
+`,wt=`Дискорд сервер(русский)
+`,yt=`Дискорд никнейм(ЛС)
+`,kt=`Гитхаб
+`,It=`Телеграмм канал(русский)
+`,St=`**DOWNLOAD CLICKER** - Один из моих первых серьёзных проектов. Начал я его разрабатывать ещё в далёком 2023 году, как простой кликер. Позже приходило всё больше идей, и это переросло в целую отдельную игру.
 
 <img src="/assets/games/imgs/download-clicker/screenshots/screen1.png" alt="First version of the game" width="600">
 
@@ -203,7 +206,7 @@ This is the first post on my website!
 А по итогу вот чо: мы закончили производство этой игры в 2025 году, посреди разработки версии **"Бета 2"**.
 Причиной послужила сложность разработки. Пытка эта хоть и приятная, но была всё равно пыткой(ауф). Плюс, я не знал, как реализовать нормально баланс.
 Так что да, проект сейчас полумёртв.
-`,ht=`**FALL MACHINE** - Это ещё один мой проект, над которым я работаю сейчас.
+`,Lt=`**FALL MACHINE** - Это ещё один мой проект, над которым я работаю сейчас.
 
 После ДК, я с Тейлором пробовали разные идеи для игр. Нужно было что-то попроще. В итоге я начал разрабатывать ФМ.
 
@@ -248,16 +251,16 @@ This is the first post on my website!
 Ждите новых обновлений по поводу игры!
 
 
-`,_t=`Чо за игра чел я хс лол💀💀💀💀💀💀💀💀
-`,ut=`Неизвестная страница!
-`,gt=`Неизвестный **пост**!
-`,bt=`# Внимание!
+`,Tt=`Чо за игра чел я хс лол💀💀💀💀💀💀💀💀
+`,At=`Неизвестная страница!
+`,Et=`Неизвестный **пост**!
+`,$t=`# Внимание!
 Этот сайт не адаптирован под телефоны.
-`,pt=`**Дарова**
+`,Ct=`**Дарова**
 
 Это первый пост на моём сайте!
-`,vt=`Godot
-`,wt=`Без Темы
-`,ft=`Скретч
-`,yt=`СВГ Стиль
-`,H=Object.assign({"/src/lib/i18n/locales/en/common/about/about_me.md":Ee,"/src/lib/i18n/locales/en/common/about/programming_langs.md":$e,"/src/lib/i18n/locales/en/common/headers/all_games.md":Ce,"/src/lib/i18n/locales/en/common/headers/all_posts.md":De,"/src/lib/i18n/locales/en/common/headers/games_by_tag.md":Oe,"/src/lib/i18n/locales/en/common/headers/newest_games.md":xe,"/src/lib/i18n/locales/en/common/headers/newest_posts.md":Me,"/src/lib/i18n/locales/en/common/headers/posts_about.md":Pe,"/src/lib/i18n/locales/en/common/headers/posts_by_tag.md":Ge,"/src/lib/i18n/locales/en/common/headers/related_posts.md":je,"/src/lib/i18n/locales/en/common/socials/ds_ru.md":Ne,"/src/lib/i18n/locales/en/common/socials/ds_user.md":Fe,"/src/lib/i18n/locales/en/common/socials/github.md":We,"/src/lib/i18n/locales/en/common/socials/tg_ru.md":Be,"/src/lib/i18n/locales/en/games/download-clicker.md":He,"/src/lib/i18n/locales/en/games/fall-machine.md":Re,"/src/lib/i18n/locales/en/messages/errors/404/unknown_game.md":qe,"/src/lib/i18n/locales/en/messages/errors/404/unknown_page.md":Ye,"/src/lib/i18n/locales/en/messages/errors/404/unknown_post.md":Ue,"/src/lib/i18n/locales/en/messages/other/no_mobile.md":Ve,"/src/lib/i18n/locales/en/posts/i-created-website.md":Ke,"/src/lib/i18n/locales/en/tags/download-clicker.md":ze,"/src/lib/i18n/locales/en/tags/fall-machine.md":Je,"/src/lib/i18n/locales/en/tags/godot.md":Xe,"/src/lib/i18n/locales/en/tags/no-theme.md":Ze,"/src/lib/i18n/locales/en/tags/scratch.md":Qe,"/src/lib/i18n/locales/en/tags/svg-style.md":et,"/src/lib/i18n/locales/ru/common/about/about_me.md":tt,"/src/lib/i18n/locales/ru/common/about/programming_langs.md":nt,"/src/lib/i18n/locales/ru/common/headers/games_by_tag.md":st,"/src/lib/i18n/locales/ru/common/headers/posts_about.md":ot,"/src/lib/i18n/locales/ru/common/headers/posts_by_tag.md":at,"/src/lib/i18n/locales/ru/common/headers/related_posts.md":it,"/src/lib/i18n/locales/ru/common/socials/ds_ru.md":rt,"/src/lib/i18n/locales/ru/common/socials/ds_user.md":lt,"/src/lib/i18n/locales/ru/common/socials/github.md":ct,"/src/lib/i18n/locales/ru/common/socials/tg_ru.md":dt,"/src/lib/i18n/locales/ru/games/download-clicker.md":mt,"/src/lib/i18n/locales/ru/games/fall-machine.md":ht,"/src/lib/i18n/locales/ru/messages/errors/404/unknown_game.md":_t,"/src/lib/i18n/locales/ru/messages/errors/404/unknown_page.md":ut,"/src/lib/i18n/locales/ru/messages/errors/404/unknown_post.md":gt,"/src/lib/i18n/locales/ru/messages/other/no_mobile.md":bt,"/src/lib/i18n/locales/ru/posts/i-created-website.md":pt,"/src/lib/i18n/locales/ru/tags/godot.md":vt,"/src/lib/i18n/locales/ru/tags/no-theme.md":wt,"/src/lib/i18n/locales/ru/tags/scratch.md":ft,"/src/lib/i18n/locales/ru/tags/svg-style.md":yt});function z(e){const s={};for(const i in H){if(!i.includes(`/locales/${e}/`))continue;const t=i.split(`/locales/${e}/`)[1].replace(".md","").replaceAll("/",".");s[t]=H[i]}return s}const D="en";R("en",()=>Promise.resolve(z("en")));R("ru",()=>Promise.resolve(z("ru")));X({fallbackLocale:D,initialLocale:D});async function kt(e=D){I.set(e),await Z()}const It=!0,St="always";async function Tt(){return await kt("en"),{}}const Rt=Object.freeze(Object.defineProperty({__proto__:null,load:Tt,prerender:It,trailingSlash:St},Symbol.toStringTag,{value:"Module"}));var At=p("<option> </option>"),Lt=p("<select></select>");function Et(e,s){x(s,!1);const i=()=>q(I,"$locale",t),[t,l]=Y(),n=[{code:"en",label:"English"},{code:"ru",label:"Русский"}],a="preferred-locale";let r=G("en");M(()=>{const o=localStorage.getItem(a)||i()||Q()||"en";I.set(o),w(r,o)});function h(d){const o=d.target.value;I.set(o),w(r,o),localStorage.setItem(a,o)}O();var _=Lt();ye(_,5,()=>n,ke,(d,o)=>{var c=At(),v=b(c,!0);u(c);var f={};L(()=>{se(v,(m(o),S(()=>m(o).label))),f!==(f=(m(o),S(()=>m(o).code)))&&(c.value=(c.__value=(m(o),S(()=>m(o).code)))??"")}),g(d,c)}),u(_),Le(_,()=>m(r),d=>w(r,d)),A("change",_,h),g(e,_),P(),l()}var $t=p('<div class="overlay svelte-16thuch"><div class="banner"><!> <button class="svelte-16thuch">X</button></div></div>');function Ct(e,s){x(s,!1);const i=()=>q(te,"$_",t),[t,l]=Y(),n=["Android","webOS","iPhone","iPad","iPod","BlackBerry","IEMobile","Opera Mini"];let a=G(!1);M(()=>{const o=navigator.userAgent||navigator.vendor||window.opera||"";w(a,n.some(c=>o.includes(c)))});function r(){w(a,!1)}O();var h=oe(),_=V(h);{var d=o=>{var c=$t(),v=b(c),f=b(v);ee(f,()=>(ve(j),i(),S(()=>j(i()("messages.other.no_mobile")))));var J=T(f,2);u(v),u(c),A("click",J,r),g(o,c)};Ie(_,o=>{m(a)&&o(d)})}g(e,h),P(),l()}var Dt=p('<video loop="" playsinline="" preload="metadata"></video>',2);function Ot(e,s){let i=ae(s,"src",8),t=G();function l(){m(t)?.play()}function n(){m(t)&&(m(t).pause(),we(t,m(t).currentTime=0))}var a=Dt();a.muted=!0,Se(a,r=>w(t,r),()=>m(t)),L(()=>C(a,"src",i())),A("mouseenter",a,l),A("mouseleave",a,n),g(e,a)}var xt=p('<link rel="icon"/>'),Mt=p("<a><!></a>"),Pt=p('<!> <div class="window-container"><div class="window-row"><!></div> <div class="window-row"><!></div></div> <!>',1);function qt(e,s){x(s,!1),M(()=>{document.documentElement.style.setProperty("--base-path",`"${k}"`)}),O();var i=Pt();Te("12qhfyh",d=>{var o=xt();L(()=>C(o,"href",`${k??""}/favicon.png`)),U(()=>{fe.title="GearBoxing's web world"}),g(d,o)});var t=V(i);Ct(t,{});var l=T(t,2),n=b(l),a=b(n);N(a,{title:"Hello world",width:500,height:200,bg_col:"black",children:(d,o)=>{var c=Mt(),v=b(c);Ot(v,{get src(){return`${k??""}/assets/gearboxing-logo.mkv`}}),u(c),L(()=>C(c,"href",`${k??""}/`)),g(d,c)},$$slots:{default:!0}}),u(n);var r=T(n,2),h=b(r);N(h,{title:"Settings",width:500,height:"auto",children:(d,o)=>{Et(d,{})},$$slots:{default:!0}}),u(r),u(l);var _=T(l,2);ne(_,s,"default",{}),g(e,i),P()}export{qt as component,Rt as universal};
+`,Dt=`Godot
+`,xt=`Без Темы
+`,Ot=`Скретч
+`,Mt=`СВГ Стиль
+`,X=Object.assign({"/src/lib/i18n/locales/en/common/about/about_me.md":je,"/src/lib/i18n/locales/en/common/about/programming_langs.md":Ne,"/src/lib/i18n/locales/en/common/headers/all_games.md":Fe,"/src/lib/i18n/locales/en/common/headers/all_posts.md":We,"/src/lib/i18n/locales/en/common/headers/games_by_tag.md":Be,"/src/lib/i18n/locales/en/common/headers/newest_games.md":Re,"/src/lib/i18n/locales/en/common/headers/newest_posts.md":He,"/src/lib/i18n/locales/en/common/headers/posts_about.md":qe,"/src/lib/i18n/locales/en/common/headers/posts_by_tag.md":Ye,"/src/lib/i18n/locales/en/common/headers/related_posts.md":Ve,"/src/lib/i18n/locales/en/common/socials/ds_ru.md":Ue,"/src/lib/i18n/locales/en/common/socials/ds_user.md":Ke,"/src/lib/i18n/locales/en/common/socials/github.md":ze,"/src/lib/i18n/locales/en/common/socials/tg_ru.md":Je,"/src/lib/i18n/locales/en/games/download-clicker.md":Xe,"/src/lib/i18n/locales/en/games/fall-machine.md":Qe,"/src/lib/i18n/locales/en/messages/errors/404/unknown_game.md":Ze,"/src/lib/i18n/locales/en/messages/errors/404/unknown_page.md":et,"/src/lib/i18n/locales/en/messages/errors/404/unknown_post.md":tt,"/src/lib/i18n/locales/en/messages/other/no_mobile.md":nt,"/src/lib/i18n/locales/en/posts/i-created-website.md":st,"/src/lib/i18n/locales/en/tags/download-clicker.md":ot,"/src/lib/i18n/locales/en/tags/fall-machine.md":at,"/src/lib/i18n/locales/en/tags/godot.md":it,"/src/lib/i18n/locales/en/tags/no-theme.md":rt,"/src/lib/i18n/locales/en/tags/scratch.md":lt,"/src/lib/i18n/locales/en/tags/svg-style.md":ct,"/src/lib/i18n/locales/ru/common/about/about_me.md":dt,"/src/lib/i18n/locales/ru/common/about/programming_langs.md":mt,"/src/lib/i18n/locales/ru/common/headers/all_games.md":_t,"/src/lib/i18n/locales/ru/common/headers/all_posts.md":ht,"/src/lib/i18n/locales/ru/common/headers/games_by_tag.md":ut,"/src/lib/i18n/locales/ru/common/headers/newest_games.md":gt,"/src/lib/i18n/locales/ru/common/headers/newest_posts.md":bt,"/src/lib/i18n/locales/ru/common/headers/posts_about.md":pt,"/src/lib/i18n/locales/ru/common/headers/posts_by_tag.md":vt,"/src/lib/i18n/locales/ru/common/headers/related_posts.md":ft,"/src/lib/i18n/locales/ru/common/socials/ds_ru.md":wt,"/src/lib/i18n/locales/ru/common/socials/ds_user.md":yt,"/src/lib/i18n/locales/ru/common/socials/github.md":kt,"/src/lib/i18n/locales/ru/common/socials/tg_ru.md":It,"/src/lib/i18n/locales/ru/games/download-clicker.md":St,"/src/lib/i18n/locales/ru/games/fall-machine.md":Lt,"/src/lib/i18n/locales/ru/messages/errors/404/unknown_game.md":Tt,"/src/lib/i18n/locales/ru/messages/errors/404/unknown_page.md":At,"/src/lib/i18n/locales/ru/messages/errors/404/unknown_post.md":Et,"/src/lib/i18n/locales/ru/messages/other/no_mobile.md":$t,"/src/lib/i18n/locales/ru/posts/i-created-website.md":Ct,"/src/lib/i18n/locales/ru/tags/godot.md":Dt,"/src/lib/i18n/locales/ru/tags/no-theme.md":xt,"/src/lib/i18n/locales/ru/tags/scratch.md":Ot,"/src/lib/i18n/locales/ru/tags/svg-style.md":Mt});function ne(e){const o={};for(const i in X){if(!i.includes(`/locales/${e}/`))continue;const s=i.split(`/locales/${e}/`)[1].replace(".md","").replaceAll("/",".");o[s]=X[i]}return o}const j="en";Q("en",()=>Promise.resolve(ne("en")));Q("ru",()=>Promise.resolve(ne("ru")));oe({fallbackLocale:j,initialLocale:j});async function Pt(e=j){T.set(e),await ae()}const Gt=!0,jt="always";async function Nt(){return await Pt("en"),{}}const an=Object.freeze(Object.defineProperty({__proto__:null,load:Nt,prerender:Gt,trailingSlash:jt},Symbol.toStringTag,{value:"Module"}));var Ft=w("<option> </option>"),Wt=w("<select></select>");function Bt(e,o){B(o,!1);const i=()=>F(T,"$locale",s),[s,c]=W(),n=[{code:"en",label:"English"},{code:"ru",label:"Русский"}],t="preferred-locale";let l=I("en");R(()=>{const r=localStorage.getItem(t)||i()||ie()||"en";T.set(r),g(l,r)});function u(m){const r=m.target.value;T.set(r),g(l,r),localStorage.setItem(t,r)}N();var _=Wt();$e(_,5,()=>n,Ce,(m,r)=>{var d=Ft(),y=f(d,!0);b(d);var v={};C(()=>{de(y,(a(r),A(()=>a(r).label))),v!==(v=(a(r),A(()=>a(r).code)))&&(d.value=(d.__value=(a(r),A(()=>a(r).code)))??"")}),p(m,d)}),b(_),Ge(_,()=>a(l),m=>g(l,m)),$("change",_,u),p(e,_),H(),c()}var Rt=w('<div class="overlay svelte-16thuch"><div class="banner"><!> <button class="svelte-16thuch">X</button></div></div>');function Ht(e,o){B(o,!1);const i=()=>F(le,"$_",s),[s,c]=W(),n=["Android","webOS","iPhone","iPad","iPod","BlackBerry","IEMobile","Opera Mini"];let t=I(!1);R(()=>{const r=navigator.userAgent||navigator.vendor||window.opera||"";g(t,n.some(d=>r.includes(d)))});function l(){g(t,!1)}N();var u=me(),_=ee(u);{var m=r=>{var d=Rt(),y=f(d),v=f(y);re(v,()=>(Le(q),i(),A(()=>q(i()("messages.other.no_mobile")))));var h=E(v,2);b(y),b(d),$("click",h,l),p(r,d)};De(_,r=>{a(t)&&r(m)})}p(e,u),H(),c()}var qt=w('<video loop="" playsinline="" preload="metadata"></video>',2);function Yt(e,o){let i=_e(o,"src",8),s=I();function c(){a(s)?.play()}function n(){a(s)&&(a(s).pause(),G(s,a(s).currentTime=0))}var t=qt();t.muted=!0,xe(t,l=>g(s,l),()=>a(s)),C(()=>P(t,"src",i())),$("mouseenter",t,c),$("mouseleave",t,n),p(e,t)}var Vt=w('<link rel="icon"/>'),Ut=w("<a><!></a>"),Kt=w('<!> <div class="window-container"><div class="window-row"><!></div> <div class="window-row"><!></div></div> <!>',1);function rn(e,o){B(o,!1);const i=()=>F(Oe,"$page",s),[s,c]=W(),n=I();let t=I(null);R(async()=>{if(!a(n)){const h=await V(()=>import("../chunks/CQBIIrmU.js"),[],import.meta.url);g(t,document.createElement("style")),G(t,a(t).textContent=M(h.default)),document.head.appendChild(a(t))}}),Te(()=>{a(t)?.remove()}),J(()=>i(),()=>{g(n,i().data?.customStyle)}),J(()=>(a(n),a(t),M),()=>{a(n)?(a(t)?.remove(),g(t,null)):!a(t)&&typeof window<"u"&&V(()=>import("../chunks/CQBIIrmU.js"),[],import.meta.url).then(h=>{g(t,document.createElement("style")),G(t,a(t).textContent=M(h.default)),document.head.appendChild(a(t))})}),Ae(),N();var l=Kt();Me("12qhfyh",h=>{var S=Vt();C(()=>P(S,"href",`${O??""}/favicon.png`)),Z(()=>{Ee.title="GearBoxing's web world"}),p(h,S)});var u=ee(l);Ht(u,{});var _=E(u,2),m=f(_),r=f(m);Y(r,{title:"Hello world",width:500,height:200,bg_col:"black",children:(h,S)=>{var L=Ut(),se=f(L);Yt(se,{get src(){return`${O??""}/assets/gearboxing-logo.mkv`}}),b(L),C(()=>P(L,"href",`${O??""}/`)),p(h,L)},$$slots:{default:!0}}),b(m);var d=E(m,2),y=f(d);Y(y,{title:"Settings",width:500,height:"auto",children:(h,S)=>{Bt(h,{})},$$slots:{default:!0}}),b(d),b(_);var v=E(_,2);ce(v,o,"default",{}),p(e,l),H(),c()}export{rn as component,an as universal};
