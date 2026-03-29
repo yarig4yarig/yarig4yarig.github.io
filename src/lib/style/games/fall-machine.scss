@@ -1,3 +1,5 @@
+@import '../base.scss';
+
 :root {
     --bg-primary: #000;
     --bg-secondary: #001a1a;
@@ -12,37 +14,16 @@
     --text-secondary: #ccc;
     --focus-color: #0cc;
     --body-bg: #000;
+    --bg-image: none;
 }
 
 body {
     background: #000;
 }
 
-.window {
-    border-color: #0cc;
-    border-right-color: #066;
-    border-bottom-color: #066;
-}
-
-.title-bar {
-    background: linear-gradient(to right, #000, #0cc);
-}
-
 h1 {
     color: #0cc;
     text-shadow: 2px 2px 4px #0008;
-}
-
-button, .btn {
-    background: #001a1a;
-    color: #fff;
-    border-color: #0cc;
-    border-right-color: #066;
-    border-bottom-color: #066;
-}
-
-button:hover, .btn:hover {
-    background: #002a2a;
 }
 
 a {

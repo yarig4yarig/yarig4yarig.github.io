@@ -1,0 +1,19 @@
+:root {
+    --bg-primary: #c0c0c0;
+    --bg-secondary: #dfdfdf;
+    --bg-content: #c0c0c0;
+    --border-shadow: #808080;
+    --border-shadow-dark: #404040;
+    --color-dark: #000;
+    --color-light: #fff;
+    --title-grad-left: #000080;
+    --title-grad-right: #1084d0;
+    --text-primary: #000;
+    --text-secondary: #808080;
+    --focus-color: #000080;
+    --body-bg: navy;
+}
+
+body {
+    background: url("/assets/bg_tile.png") navy repeat top left;
+}

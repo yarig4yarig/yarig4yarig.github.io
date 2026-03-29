@@ -2,7 +2,7 @@
     export let title = 'Window'
     export let width: number | 'auto' = 500
     export let height: number | 'auto' = 500
-    export let bg_col = '#c0c0c0'
+    export let bg_col: string | undefined
     export let style = ''
 
     $: widthStyle = width === 'auto' ? 'auto' : `${width}px`
@@ -17,7 +17,7 @@
         <span class='title'>{title}</span>
     </div>
 
-    <div class='content' style={style}>
+    <div class='content' style={`background: var(--bg-col); ${style}`}>
         <slot />
     </div>
 </div>
